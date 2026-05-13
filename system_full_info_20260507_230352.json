@@ -1,0 +1,23 @@
+{
+    "OS": "Windows 11 (10.0.26200)",
+    "Architecture": "AMD64",
+    "Hostname": "PC2SYX",
+    "Local IP": "192.168.1.54",
+    "MAC Address": "9f:6b",
+    "Username": "kripi",
+    "Python Version": "3.13.1",
+    "Uptime": "1 day, 10:26:34",
+    "Cores Physiques": 6,
+    "Cores Logiques": 6,
+    "Utilisation CPU": "29.8%",
+    "Fréquence": "2904.00 MHz",
+    "RAM Totale": "15.92 GB",
+    "RAM Utilisée": "13.67 GB (85.9%)",
+    "RAM Disponible": "2.25 GB",
+    "Disque Total": "237.91 GB",
+    "Disque Utilisé": "229.32 GB (96.4%)",
+    "Disque Libre": "8.59 GB",
+    "battery": {
+        "Batterie": "Non détectée (PC fixe)"
+    }
+}
