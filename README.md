@@ -54,10 +54,18 @@ Il regroupe des modules avancés avec une interface terminal moderne (Rich) et u
 ---
 
 ## 🛠 Installation
+### Linux
+```sh
+git clone https://github.com/tonusername/RS-TOOLS.git
+cd RS-TOOLS
+chmod +x install.sh
+./install.sh
+```
 
 ### Windows
 
 ```bat
-git clone https://github.com/tonusername/RS-TOOLS.git
+git clone https://github.com/eternelsouffrance/RS-TOOLS.git
 cd RS-TOOLS
 install.bat
+```
