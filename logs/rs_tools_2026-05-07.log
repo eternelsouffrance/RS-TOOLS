@@ -1,0 +1,338 @@
+2026-05-07 21:55:05,058 | INFO | === RS TOOLS démarré ===
+2026-05-07 21:55:05,058 | ERROR | Erreur critique non gérée
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 73, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 42, in main_menu
+    config = load_config()
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 25, in load_config
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-05-07 21:55:56,513 | INFO | === RS TOOLS démarré ===
+2026-05-07 21:55:56,513 | INFO | Fichier config.json créé avec les valeurs par défaut
+2026-05-07 21:56:07,949 | ERROR | Erreur critique non gérée
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 100, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 87, in main_menu
+    discord_menu(console, config)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\discord_tools.py", line 71, in discord_menu
+    console.print(Panel("[bold magenta]MODULE DISCORD[/bold magenta]"))
+                  ^^^^^
+NameError: name 'Panel' is not defined
+2026-05-07 21:57:14,709 | INFO | === RS TOOLS démarré ===
+2026-05-07 21:58:15,729 | INFO | === RS TOOLS démarré ===
+2026-05-07 21:58:37,473 | INFO | === RS TOOLS démarré ===
+2026-05-07 21:58:54,493 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:01:44,778 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:02:58,189 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:03:27,276 | ERROR | Erreur critique non gérée
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 100, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 89, in main_menu
+    osint_menu(console)
+    ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\osint_tools.py", line 85, in osint_menu
+    console.print(Panel("[bold cyan]MODULE OSINT[/bold cyan]"))
+                  ^^^^^
+NameError: name 'Panel' is not defined
+2026-05-07 22:03:36,482 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:03:40,139 | ERROR | Erreur critique non gérée
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 100, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 89, in main_menu
+    osint_menu(console)
+    ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\osint_tools.py", line 85, in osint_menu
+    console.print(Panel("[bold cyan]MODULE OSINT[/bold cyan]"))
+                  ^^^^^
+NameError: name 'Panel' is not defined
+2026-05-07 22:04:31,946 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:04:42,875 | INFO | IP Lookup réussi : 1.1.1.1
+2026-05-07 22:05:55,456 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:10:05,195 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:10:15,818 | ERROR | Erreur critique non gérée
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 100, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 91, in main_menu
+    network_menu(console)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\network_tools.py", line 111, in network_menu
+    console.print(Panel("[bold green]MODULE NETWORK[/bold green]"))
+                  ^^^^^
+NameError: name 'Panel' is not defined
+2026-05-07 22:11:04,189 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:11:28,147 | INFO | Port scan terminé sur 1.1.1.1 → 3 ports ouverts
+2026-05-07 22:11:36,458 | INFO | Session terminée par l'utilisateur
+2026-05-07 22:11:46,847 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:11:52,238 | INFO | Informations système affichées
+2026-05-07 22:16:30,484 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:17:57,081 | INFO | 15 codes Nitro simulés générés
+2026-05-07 22:19:27,549 | INFO | === RS TOOLS démarré ===
+2026-05-07 22:20:41,370 | INFO | IP Lookup réussi : 1.1.1.1
+2026-05-07 22:38:43,542 | INFO | Session terminée
+2026-05-07 22:41:59,750 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:43:27,815 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:46:22,558 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:46:35,619 | INFO | Résultat sauvegardé → token_user_20260507_224635.json
+2026-05-07 22:46:35,620 | INFO | Token USER valide → ID: 1500246820922855444
+2026-05-07 22:47:27,499 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:49:07,818 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:49:34,551 | INFO | Résultat sauvegardé → token_user_20260507_224934.json
+2026-05-07 22:49:34,551 | INFO | Token USER analysé avec succès - 2FA: False
+2026-05-07 22:54:39,493 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:55:07,181 | INFO | Résultat OSINT sauvegardé → osint_phone_osint_20260507_225507.json
+2026-05-07 22:55:27,576 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:56:44,269 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:57:30,463 | INFO | Résultat sauvegardé → network_website_scraper_20260507_225730.json
+2026-05-07 22:57:52,674 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:58:40,933 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 22:59:04,459 | INFO | Résultat sauvegardé → network_ssl_analyzer_20260507_225904.json
+2026-05-07 22:59:23,729 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 23:00:36,246 | INFO | Résultat OSINT sauvegardé → osint_ip_lookup_20260507_230036.json
+2026-05-07 23:01:06,974 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 23:02:01,440 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 23:03:20,745 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 23:03:43,119 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 72, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 65, in main_menu
+    elif choice == "4": system_menu(console)
+                        ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\system_tools.py", line 160, in system_menu
+    get_full_system_info(console)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\system_tools.py", line 31, in get_full_system_info
+    console.status("[cyan]Collecte des informations système avancées...[/cyan]", spinner="dots").start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\status.py", line 87, in start
+    self._live.start()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 837, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2026-05-07 23:03:46,778 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 23:03:52,309 | INFO | Résultat système sauvegardé → system_full_info_20260507_230352.json
+2026-05-07 23:06:28,209 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 23:07:05,540 | INFO | === RS TOOLS v1.1 démarré ===
+2026-05-07 23:08:52,025 | INFO | === RS TOOLS v2.0 démarré ===
+2026-05-07 23:11:16,851 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:11:17,465 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 106, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 80, in main_menu
+    console.print(f"   {GREEN}Version{RESET} : {config.get('version')} | Développé par No Escape")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1693, in print
+    renderables = self._collect_renderables(
+        objects,
+    ...<5 lines>...
+        highlight=highlight,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1553, in _collect_renderables
+    self.render_str(
+    ~~~~~~~~~~~~~~~^
+        renderable,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        highlighter=_highlighter,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1443, in render_str
+    rich_text = render_markup(
+        text,
+    ...<2 lines>...
+        emoji_variant=self._emoji_variant,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\markup.py", line 167, in render
+    raise MarkupError(
+        f"closing tag '{tag.markup}' at position {position} doesn't match any open tag"
+    ) from None
+rich.errors.MarkupError: closing tag '[/white]' at position 17 doesn't match any open tag
+2026-05-07 23:11:28,664 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:11:29,277 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 106, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 80, in main_menu
+    console.print(f"   {GREEN}Version{RESET} : {config.get('version')} | Développé par No Escape")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1693, in print
+    renderables = self._collect_renderables(
+        objects,
+    ...<5 lines>...
+        highlight=highlight,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1553, in _collect_renderables
+    self.render_str(
+    ~~~~~~~~~~~~~~~^
+        renderable,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        highlighter=_highlighter,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1443, in render_str
+    rich_text = render_markup(
+        text,
+    ...<2 lines>...
+        emoji_variant=self._emoji_variant,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\markup.py", line 167, in render
+    raise MarkupError(
+        f"closing tag '{tag.markup}' at position {position} doesn't match any open tag"
+    ) from None
+rich.errors.MarkupError: closing tag '[/white]' at position 17 doesn't match any open tag
+2026-05-07 23:12:11,225 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:12:11,226 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 106, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 59, in main_menu
+    print_banner()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\assets\banner.py", line 21, in print_banner
+    console.print(Panel(banner, title=f"{BEFORE}RS TOOLS v2.1{AFTER}", border_style="bright_blue"))
+                                         ^^^^^^
+NameError: name 'BEFORE' is not defined
+2026-05-07 23:12:52,547 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:13:12,137 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:13:57,668 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:13:58,183 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 112, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 86, in main_menu
+    console.print(f"   {CYAN}Version{RESET} : {version}  |  Développé par No Escape")
+                                     ^^^^^
+NameError: name 'RESET' is not defined
+2026-05-07 23:14:15,159 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:14:15,670 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 112, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 86, in main_menu
+    console.print(f"   {CYAN}Version{RESET} : {version}  |  Développé par No Escape")
+                                     ^^^^^
+NameError: name 'RESET' is not defined
+2026-05-07 23:15:08,126 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:15:08,130 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 108, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 62, in main_menu
+    print_banner()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\assets\banner.py", line 55, in print_banner
+    console.print(f"{YELLOW}Développé par No Escape • Multi-tool Cybersécurité & OSINT{RESET}\n")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1693, in print
+    renderables = self._collect_renderables(
+        objects,
+    ...<5 lines>...
+        highlight=highlight,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1553, in _collect_renderables
+    self.render_str(
+    ~~~~~~~~~~~~~~~^
+        renderable,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        highlighter=_highlighter,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1443, in render_str
+    rich_text = render_markup(
+        text,
+    ...<2 lines>...
+        emoji_variant=self._emoji_variant,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\markup.py", line 167, in render
+    raise MarkupError(
+        f"closing tag '{tag.markup}' at position {position} doesn't match any open tag"
+    ) from None
+rich.errors.MarkupError: closing tag '[/white]' at position 66 doesn't match any open tag
+2026-05-07 23:15:49,900 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:15:49,905 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 101, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 55, in main_menu
+    print_banner()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\assets\banner.py", line 56, in print_banner
+    console.print(f"{YELLOW}Développé par No Escape • Multi-tool Cybersécurité & OSINT{RESET}\n")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1693, in print
+    renderables = self._collect_renderables(
+        objects,
+    ...<5 lines>...
+        highlight=highlight,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1553, in _collect_renderables
+    self.render_str(
+    ~~~~~~~~~~~~~~~^
+        renderable,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        highlighter=_highlighter,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1443, in render_str
+    rich_text = render_markup(
+        text,
+    ...<2 lines>...
+        emoji_variant=self._emoji_variant,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\markup.py", line 167, in render
+    raise MarkupError(
+        f"closing tag '{tag.markup}' at position {position} doesn't match any open tag"
+    ) from None
+rich.errors.MarkupError: closing tag '[/reset]' at position 66 doesn't match any open tag
+2026-05-07 23:16:45,627 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:17:31,636 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:18:39,119 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:19:22,566 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:21:46,182 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:23:08,990 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-07 23:35:27,026 | INFO | === RS TOOLS v2.1 démarré ===

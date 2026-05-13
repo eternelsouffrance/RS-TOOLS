@@ -1,0 +1,146 @@
+2026-05-08 11:12:32,703 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-08 11:35:51,267 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-08 11:35:51,280 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 108, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 60, in main_menu
+    print_banner()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\assets\banner.py", line 53, in print_banner
+    console.print(f"{DARK_RED}© 2025 - 2026 Raven & Skxzen. All Rights Reserved.{RESET}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1693, in print
+    renderables = self._collect_renderables(
+        objects,
+    ...<5 lines>...
+        highlight=highlight,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1553, in _collect_renderables
+    self.render_str(
+    ~~~~~~~~~~~~~~~^
+        renderable,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        highlighter=_highlighter,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1443, in render_str
+    rich_text = render_markup(
+        text,
+    ...<2 lines>...
+        emoji_variant=self._emoji_variant,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\markup.py", line 167, in render
+    raise MarkupError(
+        f"closing tag '{tag.markup}' at position {position} doesn't match any open tag"
+    ) from None
+rich.errors.MarkupError: closing tag '[/bold red]' at position 55 doesn't match any open tag
+2026-05-08 11:36:10,168 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-08 11:36:10,175 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 108, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 60, in main_menu
+    print_banner()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\assets\banner.py", line 53, in print_banner
+    console.print(f"{DARK_RED}© 2025 - 2026 Raven & Skxzen. All Rights Reserved.{RESET}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1693, in print
+    renderables = self._collect_renderables(
+        objects,
+    ...<5 lines>...
+        highlight=highlight,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1553, in _collect_renderables
+    self.render_str(
+    ~~~~~~~~~~~~~~~^
+        renderable,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        highlighter=_highlighter,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\console.py", line 1443, in render_str
+    rich_text = render_markup(
+        text,
+    ...<2 lines>...
+        emoji_variant=self._emoji_variant,
+    )
+  File "C:\Users\kripi\AppData\Local\Programs\Python\Python313\Lib\site-packages\rich\markup.py", line 167, in render
+    raise MarkupError(
+        f"closing tag '{tag.markup}' at position {position} doesn't match any open tag"
+    ) from None
+rich.errors.MarkupError: closing tag '[/bold red]' at position 55 doesn't match any open tag
+2026-05-08 11:37:24,038 | INFO | === RS TOOLS v2.1 démarré ===
+2026-05-08 12:14:42,184 | INFO | === RS TOOLS v2.2 démarré ===
+2026-05-08 12:14:44,353 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 112, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 87, in main_menu
+    time.sleep(0.4)
+    ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'?
+2026-05-08 12:14:55,121 | INFO | === RS TOOLS v2.2 démarré ===
+2026-05-08 12:14:57,286 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 112, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 87, in main_menu
+    time.sleep(0.4)
+    ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'?
+2026-05-08 12:15:45,403 | INFO | === RS TOOLS v2.2 démarré ===
+2026-05-08 15:24:59,219 | INFO | === RS TOOLS v1.5 démarré ===
+2026-05-08 15:28:14,139 | INFO | === RS TOOLS v1.5 démarré ===
+2026-05-08 15:28:23,972 | INFO | === RS TOOLS v1.5 démarré ===
+2026-05-08 16:11:29,448 | INFO | === RS TOOLS v1.5 démarré ===
+2026-05-08 16:11:36,913 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 77, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 67, in main_menu
+    elif choice == "1": discord_menu(console, config)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\discord_tools.py", line 122, in discord_menu
+    check_token(token, console)          # ta fonction existante
+    ^^^^^^^^^^^
+NameError: name 'check_token' is not defined
+2026-05-08 16:11:42,323 | INFO | === RS TOOLS v1.5 démarré ===
+2026-05-08 16:11:53,082 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 77, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 67, in main_menu
+    elif choice == "1": discord_menu(console, config)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\discord_tools.py", line 122, in discord_menu
+    check_token(token, console)          # ta fonction existante
+    ^^^^^^^^^^^
+NameError: name 'check_token' is not defined
+2026-05-08 16:12:02,938 | INFO | === RS TOOLS v1.5 démarré ===
+2026-05-08 16:12:08,834 | ERROR | Erreur critique
+Traceback (most recent call last):
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 77, in <module>
+    main_menu()
+    ~~~~~~~~~^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\main.py", line 67, in main_menu
+    elif choice == "1": discord_menu(console, config)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\kripi\Desktop\RS TOOLS\modules\discord_tools.py", line 122, in discord_menu
+    check_token(token, console)          # ta fonction existante
+    ^^^^^^^^^^^
+NameError: name 'check_token' is not defined
+2026-05-08 16:26:23,247 | INFO | === RS TOOLS v1.5 démarré ===
+2026-05-08 16:26:37,724 | INFO | Résultat sauvegardé → token_user_20260508_162637.json
+2026-05-08 16:28:18,180 | INFO | === RS TOOLS v1.5 démarré ===
